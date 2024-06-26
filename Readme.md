@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
-* Студент: [Эльвина Шамсутдинова](https://up.htmlacademy.ru/adaptive/25/user/2021699).
-* Наставник: `Малик`.
+* Студент: [Oleg](https://up.htmlacademy.ru/adaptive/25/user/2021699).
+* Наставник: `Home2`.
 
 ---
 
