@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Седона. Форма</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="page-header">
+    <h2 class="visually-hidden">Шапка сайта</h2>
+
+    <section class="page-header__menu">
+      <h3 class="visually-hidden">Меню</h3>
+
+      <ul class="page-header__list-menu list-menu">
+        <li class="list-menu__item">
+          <a href="index.html" class="list-menu__item">Главная</a>
+        </li>
+        <li class="list-menu__item">
+          <a href="photo.html" class="list-menu__item">фото и видео</a>
+        </li>
+        <li class="list-menu__item">
+          <a href="form.html" class="list-menu__item">Форма отзыва</a>
+        </li>
+        <li class="list-menu__item">
+          <a href="#" class="list-menu__item">HTML academy</a>
+        </li>
+      </ul>
+
+      <a href="#" class="page-header__small-logo">
+        <img src="#" class="page-header__small-logo" alt="Логотип">
+      </a>
+      <a href="#" class="page-header__menu-btn">-</a>
+    </section>
+
+    <section class="page-header__big-logo big-logo big-logo--short">
+      <h3 class="visually-hidden">Welcome to Sedona</h3>
+      <img src="#" class="big-logo__welcome" alt="Welcome">
+      <img src="#" class="big-logo__to-the-gargeaus" alt="to the gorgeous">
+      <img src="#" class="big-logo__sedona" alt="Sedona">
+      <img src="#" class="big-logo__add-sign" alt="Because the Grand Canyon sucks">
+    </section>
+
+  </header>
+  <!-- MAIN -->
+  <main class="page-main">
+    <h1 class="visually-hidden">Седона</h1>
+
+    <form action="https://echo.htmlacademy.ru" class="page-main__form-review form-review">
+      <!-- head -->
+      <fieldset class="form-review__head">
+        <h2 class="form-review__head-title">Оставьте свой отзыв</h2>
+        <p class="form-review__head-text">Помогите нашим отелям стать лучше! оставьте отзыв
+          о них, а также о посещенных вами достопримечательностях</p>
+      </fieldset>
+
+
+      <!-- user-information -->
+      <fieldset class="form-review__user-information fieldset-form">
+        <p class="fieldset-form__title">Представьтесь:</p>
+        <!-- first-name -->
+        <div class="fieldset-form__item">
+          <label class="fieldset-form__label" for="first-name">ИМЯ*:</label>
+          <input type="text" class="fieldset-form__input fieldset-form__input--text" name="first-name" id="first-name"
+            placeholder="Петр">
+        </div>
+        <!-- last-name -->
+        <div class="fieldset-form__item">
+          <label class="fieldset-form__label" for="last-name">ФАМИЛИЯ*:</label>
+          <input type="text" class="fieldset-form__input fieldset-form__input--text" name="last-name" id="last-name"
+            placeholder="Иванов">
+        </div>
+        <!-- father-name -->
+        <div class="fieldset-form__item">
+          <label class="fieldset-form__label" for="father-name">Отчество*:</label>
+          <input type="text" class="fieldset-form__input fieldset-form__input--text" name="father-name" id="father-name"
+            placeholder="Александрович">
+        </div>
+      </fieldset>
+
+
+      <!-- user-contacts -->
+      <fieldset class="form-review__user-contacts fieldset-form">
+        <p class="fieldset-form__title">Контактная информация:</p>
+        <!-- telephone -->
+        <div class="fieldset-form__item">
+          <label class="telephone__label" for="telephone">Контактный телефон*:</label>
+          <input type="tel" class="fieldset-form__input fieldset-form__input--tel" name="telephone" id="telephone"
+            placeholder="Введите телефон">
+        </div>
+        <!-- email -->
+        <div class="fieldset-form__item">
+          <label class="fieldset-form__label" for="last-name">Электронная почта*:</label>
+          <input type="email" class="fieldset-form__input fieldset-form__input--email" name="email" id="email"
+            placeholder="Введите e-mail">
+        </div>
+      </fieldset>
+
+      <!-- user-pleasure -->
+      <fieldset class="form-review__user-pleasure fieldset-form">
+        <p class="fieldset-form__title">ВАше Общее впечатление:</p>
+
+        <div class="fieldset-form__item">
+          <input class="fieldset-form__input fieldset-form__input--radio" name="pleasure_radio" id="pleasure_radio1"
+            type="radio" value="positive" checked>
+          <label class="fieldset-form__label" for="pleasure_radio1">Скорее положительное</label>
+        </div>
+        <div class="fieldset-form__item">
+          <input class="fieldset-form__input fieldset-form__input--radio" name="pleasure_radio" id="pleasure_radio2"
+            type="radio" value="negative">
+          <label class="fieldset-form__label" for="pleasure_radio2">Скорее отрицательное</label>
+        </div>
+        <div class="fieldset-form__item">
+          <input class="fieldset-form__input fieldset-form__input--radio" name="pleasure_radio" id="pleasure_radio3"
+            type="radio" value="neutral">
+          <label class="fieldset-form__label" for="pleasure_radio3">Затрудняюсь ответить</label>
+        </div>
+      </fieldset>
+
+      <!-- user-atractions -->
+      <fieldset class="form-review__user-atractions fieldset-form">
+        <p class="fieldset-form__title">посещенные достопримечательности:</p>
+
+        <div class="fieldset-form__item">
+          <input class="fieldset-form__input fieldset-form__input--radio" name="atractions[]" id="atraction1"
+            type="checkbox" value="bridge" checked>
+          <label class="fieldset-form__label" for="atraction1">Мост Дьявола</label>
+        </div>
+        <div class="fieldset-form__item">
+          <input class="fieldset-form__input fieldset-form__input--radio" name="atractions[]" id="atraction2"
+            type="checkbox" value="mountain" checked>
+          <label class="fieldset-form__label" for="atraction2">Гора-Колокол</label>
+        </div>
+        <div class="fieldset-form__item">
+          <input class="fieldset-form__input fieldset-form__input--radio" name="atractions[]" id="atraction3"
+            type="checkbox" value="park" checked>
+          <label class="fieldset-form__label" for="atraction3">Слайд-парк</label>
+        </div>
+        <div class="fieldset-form__item">
+          <input class="fieldset-form__input fieldset-form__input--radio" name="atractions[]" id="atraction4"
+            type="checkbox" value="rock">
+          <label class="fieldset-form__label" for="atraction4">Красные скалы</label>
+        </div>
+      </fieldset>
+
+
+      <!-- user-message -->
+      <fieldset class="form-review__user-message fieldset-form">
+        <p class="fieldset-form__title">Опишите свои эмоции:</p>
+        <!-- textarea -->
+        <textarea name="message" id="message" placeholder="Опишите подробно все свои восторги "></textarea>
+      </fieldset>
+
+
+      <button type="submit" class="form-review__btn">ОТПРАВИТЬ ОТЗЫВ</button>
+
+
+    </form>
+
+
+
+
+
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="page-footer">
+    <h2 class="visually-hidden">Подвал сайта</h2>
+
+    <p class="page-footer__tag">#visitSEDONA</p>
+
+
+    <ul class="page-footer__socials social-list">
+      <li>
+        <a class="social-list__item social-list__item--twiter" href="#"></a>
+      </li>
+      <li>
+        <a class="social-list__item social-list__item--facebook" href="#"></a>
+      </li>
+      <li>
+        <a class="social-list__item social-list__item--youtube" href="#"></a>
+      </li>
+    </ul>
+
+    <div class="page-footer__htmlacademy-sign htmlacademy-sign">
+      <p class="htmlacademy-sign__text">WEBSITE by
+        <a href="#"><img src="./img/logo-htmlacademy.svg" class="htmlacademy-sign__img" width="115" height="41"
+            alt="HTMLacademy"></a>
+      </p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
