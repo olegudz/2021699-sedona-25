@@ -1,12 +1,173 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>Седона. Главная</title>
+</head>
 
-  </body>
+<body>
+  <!-- HEADER -->
+  <header class="page-header">
+    <h2 class="visually-hidden">Шапка сайта</h2>
+
+    <section class="page-header__menu">
+      <h3 class="visually-hidden">Меню</h3>
+
+      <ul class="page-header__list-menu list-menu">
+        <li class="list-menu__item">
+          <a href="index.html" class="list-menu__item">Главная</a>
+        </li>
+        <li class="list-menu__item">
+          <a href="photo.html" class="list-menu__item">фото и видео</a>
+        </li>
+        <li class="list-menu__item">
+          <a href="form.html" class="list-menu__item">Форма отзыва</a>
+        </li>
+        <li class="list-menu__item">
+          <a href="#" class="list-menu__item">HTML academy</a>
+        </li>
+      </ul>
+
+      <a href="#" class="page-header__small-logo">
+        <img src="#" class="page-header__small-logo" alt="Логотип">
+      </a>
+      <a href="#" class="page-header__menu-btn">-</a>
+    </section>
+
+    <section class="page-header__big-logo big-logo big-logo--short">
+      <h3 class="visually-hidden">Welcome to Sedona</h3>
+      <img src="#" class="big-logo__welcome" alt="Welcome">
+      <img src="#" class="big-logo__to-the-gargeaus" alt="to the gorgeous">
+      <img src="#" class="big-logo__sedona" alt="Sedona">
+      <img src="#" class="big-logo__add-sign" alt="Because the Grand Canyon sucks">
+    </section>
+
+  </header>
+  <!-- MAIN -->
+  <main class="page-main">
+    <h1 class="visually-hidden">Седона</h1>
+
+    <!-- promo -->
+    <section class="page-main__promo">
+      <h3 class="promo__title">СЕДОНА - небольшой городок в АРИЗОНЕ,
+        зАСЛУЖИвающий большего!</h3>
+      <p class="promo__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+    </section>
+
+    <!-- advantage 1 -->
+    <section class="page-main__advantage advantage">
+      <div class="advantage_block">
+        <h2 class="advantage__title">НАСТОЯЩИЙ ГОРОДОК</h2>
+        <p class="advantage__divided">— №1 —</p>
+        <p class="advantage__text">СЕДОНА — НЕ АТтРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+      </div>
+      <img class="advantage__img" src="#" alt="НАСТОЯЩИЙ ГОРОДОК">
+    </section>
+
+
+    <!-- feature -->
+    <section class="page-main__feature feature">
+      <ul class="feature__list">
+        <li class="feature__item feature__item--house">
+            <h2 class="feature__item-title">Жилье</h2>
+            <p class="feature__item-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+        </li>
+        <li class="feature__item feature__item--food">
+            <h2 class="feature__item-title">ЕДА</h2>
+            <p class="feature__item-text">Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
+        </li>
+        <li class="feature__item feature__item--souvenirs">
+            <h2 class="feature__item-title">СУВЕНИРЫ</h2>
+            <p class="feature__item-text">Не только китайского, но и местного производства!</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- advantage 2 -->
+    <section class="page-main__advantage advantage">
+      <div class="advantage_block">
+        <h2 class="advantage__title">ТАМ ЕСТЬ Мост дьявола</h2>
+        <p class="advantage__divided">— №2 —</p>
+        <p class="advantage__text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+      </div>
+      <img class="advantage__img" src="#" alt="Мост дьявола">
+    </section>
+
+    <!-- advantage 3 - 5 -->
+    <section class="page-main__advantages adv-simple">
+
+
+      <ul class="adv-simple__list">
+
+        <li class="adv-simple__item">
+            <h2 class="adv-simple__title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h2>
+            <p class="adv-simple__divided">— №3 —</p>
+            <p class="adv-simple__text">ВСЕ достопримечательности находятся очень близко</p>
+        </li>
+
+        <li class="adv-simple__item">
+            <h2 class="adv-simple__title">КРАСИВАЯ ДОРОГА</h2>
+            <p class="adv-simple__divided">— №4 —</p>
+            <p class="adv-simple__text">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем НЕ СКУЧНО!</p>
+        </li>
+
+        <li class="adv-simple__item">
+            <h2 class="adv-simple__title">МАЛО ТУРИСТОВ</h2>
+            <p class="adv-simple__divided">— №5 —</p>
+            <p class="adv-simple__text">Большинство едет в гранд каньон и толпится там</p>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- order-form -->
+    <section class="page-main__order-form order-form">
+      <h2 class="visually-hidden">Найти гостиницу</h2>
+      <p class="order-form__big-sign">ЗАИНТЕРЕСОВАЛИСЬ?</p>
+      <p class="order-form__light-sign">Укажите предполагаемые даты поездки,<br>
+        и мы покажем вам лучшие предложения гостиниц в седоне
+      </p>
+      <a href="#" id="order-form__btn" class="order-form__btn">
+        НАЙТИ ГОСТИНИЦУ
+      </a>
+    </section>
+
+    <section class="page-main__map map">
+      <h2 class="visually-hidden">Дорога к Седоне</h2>
+      <img class="map__img" src="#" alt="Дорога к Седоне">
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="page-footer">
+    <h2 class="visually-hidden">Подвал сайта</h2>
+
+    <div class="page-footer__tag">#visitSEDONA</div>
+
+
+    <ul class="page-footer__socials social-list">
+        <li>
+            <a class="social-list__item social-list__item--twiter"  href="#"></a>
+        </li>
+        <li>
+            <a class="social-list__item social-list__item--facebook" href="#"></a>
+        </li>
+        <li>
+            <a class="social-list__item social-list__item--youtube" href="#"></a>
+        </li>
+    </ul>
+
+    <div class="page-footer__htmlacademy-sign htmlacademy-sign">
+        <p class="htmlacademy-sign__text">WEBSITE by
+            <a href="#"><img src="./img/logo-htmlacademy.svg" class="htmlacademy-sign__img" width="115"
+                    height="41" alt="HTMLacademy"></a>
+        </p>
+    </div>
+
+</footer>
+
+</body>
+
 </html>
