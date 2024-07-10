@@ -1,0 +1,30 @@
+@import 'list-menu';
+@import 'big-logo';
+@import 'menu-btn';
+
+.page-header {
+  width: 100%;
+}
+
+.page-header__list-menu {
+ // outline: 2px solid black;
+}
+
+.page-header__big-logo {
+ // outline: 2px solid blue;
+}
+
+@media (min-width: $tablet-width) {
+
+  .page-header {
+    width: $tablet-width;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+  .page-header {
+    width: $desktop-width;
+  }
+}

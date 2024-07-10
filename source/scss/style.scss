@@ -1,6 +1,4 @@
-$base: #FFFFFF;
+@import 'variables';
+@import 'scaffolding';
 
-.red {
-  background-color: $base;
-}
-
+@import 'block/page-header';

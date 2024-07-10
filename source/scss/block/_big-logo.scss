@@ -1,0 +1,27 @@
+.big-logo {
+  height: 388px;
+  background-color: aqua;
+  background-image: url("../img/backgrounds/back-mobile.jpg");
+  background-size: cover;
+  background-position: 0% 50%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.big-logo::after {
+  box-sizing: border-box;
+  width: 100%;
+  content: '';
+  background-color:transparent;
+	border-left: 160px solid white;
+	border-right: 160px solid white;
+	border-top: 25px solid transparent;
+}
+
+.big-logo__banner {
+  margin-top: 25px;
+  margin-bottom: auto;
+  width: 280px;
+  height: 450px;
+}
